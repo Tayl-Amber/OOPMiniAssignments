@@ -46,11 +46,11 @@ public:
 
 int main()
 {
-    Rectangle rec1;
+    Rectangle rec1;     //rectangle 1
     rec1.set_length(5);
     rec1.set_width(2.5);
 
-    Rectangle rec2;
+    Rectangle rec2;     //rectangle 2
     rec2.set_length(5);
     rec2.set_width(18.9);
 
