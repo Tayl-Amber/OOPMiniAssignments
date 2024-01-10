@@ -8,7 +8,7 @@ private:
          int n;   
 public:
 void display();
-            
+            int t;
 };
             
             
