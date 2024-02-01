@@ -19,6 +19,9 @@ public:
     }
     return reversedNumber;
     }
+    void display(){
+       cout << "Reversed Numberis: " << calRev() << endl;
+    }
 };
 
 int main()
