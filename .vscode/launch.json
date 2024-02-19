@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Umber Tayal/Documents/2nd Sem Assignment",
-      "program": "c:/Users/Umber Tayal/Documents/2nd Sem Assignment/build/Debug/outDebug",
+      "cwd": "c:/Users/Umber Tayal/Documents/OOPMiniProjects",
+      "program": "c:/Users/Umber Tayal/Documents/OOPMiniProjects/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
