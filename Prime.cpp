@@ -5,7 +5,6 @@ class Prime
 {
 private:
   int num;
-
 public:
   void setData(int num)
   {
