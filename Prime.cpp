@@ -1,37 +1,49 @@
-#include<iostream>
- 
+#include <iostream>
+
 using namespace std;
-class Prime{
+class Prime
+{
 private:
-int num;
+  int num;
 public:
-void setData(int num){
-    cout << "Enter the number: ";
-    cin >> num;
-}
-bool showPrime(int n){
-  bool is_prime = true;
-if (n == 0 || n == 1) {
-    is_prime = false;
+  void setData(int num)
+  {
+    this->num = num;
   }
-  for (int i = 2; i <= n/2; ++i) {
-    if (n % i == 0) {
+  bool showPrime(int n)
+  {
+    bool is_prime = true;
+    if (n == 0 || n == 1)
+    {
       is_prime = false;
-      break;
+    }
+    for (int i = 2; i <= n / 2; ++i)
+    {
+      if (n % i == 0)
+      {
+        is_prime = false;
+        break;
+      }
+    }
+    if (is_prime)
+    {
+      cout << "Number is Prime." << endl;
+    }
+    else
+    {
+      cout << "Number is Composite." << endl;
     }
   }
-  if (is_prime)
-    cout << "Number is Prime." << endl;
-}
-else{
-    cout << "Number is Composite." << endl;
-}
-}
 };
 
-int main(){
-    Prime prime;
-    int n;
-    prime.setData(n);
-    prime.showPrime(n);
+int main()
+{
+  Prime prime;
+  
+  int num;
+  cout << "Enter the number: ";
+  cin >> num;
+
+  prime.setData(num);
+  prime.showPrime(num);
 }
