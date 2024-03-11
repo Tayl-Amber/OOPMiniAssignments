@@ -15,7 +15,6 @@ void display();
 string str = to_string(n);
     int len = str.length();
 
-    // Iterate over the first half of the string
     for (int i = 0; i < len / 2; i++) {
         // Compare the characters from the beginning and end of the string
         if (str[i] != str[len - i - 1]) {
