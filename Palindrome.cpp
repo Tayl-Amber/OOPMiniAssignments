@@ -18,7 +18,7 @@ string str = to_string(n);
     for (int i = 0; i < len / 2; i++) {
      
         if (str[i] != str[len - i - 1]) {
-            // If characters don't match, the number is not a palindrome
+         
             return false;
         }
     }
