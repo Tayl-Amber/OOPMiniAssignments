@@ -22,11 +22,12 @@ public:
     {
         cout << "The Complex Number is: " << real << " + " << img << "i" << endl;
     }
-    float sum(Complex c1, Complex c2)
+    Complex sum(Complex c1, Complex c2)
     {
-        float R = c1.real + c2.real;
-        float I = c1.img + c2.img;
-        cout << "The Sum is: " << R << " + " << I << "i" << endl;
+        Complex result;
+        result.real = c1.real + c2.real;
+        result.img = c1.img + c2.img;
+       cout << "The sum is: " << result.real << " + " << result.img << "i" << endl;
     }
 };
 
@@ -34,7 +35,7 @@ int main()
 {
     float img, real;
     Complex c1, c2, c3;
-    
+
     cout << endl;
     cout << "Enter the Real Part for number 1: ";
     cin >> real;
