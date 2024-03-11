@@ -20,12 +20,12 @@ public:
         cout << "Feet are: " << feet << endl;
         cout << "Inches are: " << inches << endl;
     }
-    Distance add(Distance d1)
+    Distance add(Distance d1)   // passing object as parameter
     {
         Distance res;
         res.feet = feet + d1.feet;
         res.inches = inches + d1.inches;
-        return res;
+        return res;    // returning object from a function
     }
 };
 
