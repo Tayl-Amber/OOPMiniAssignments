@@ -13,7 +13,7 @@ public:
 };
 
 bool Palindrome::checkPalindrome(int num){ 
-    string str = to_string(num); // Convert num to string
+    string str = to_string(num); 
     int len = str.length();
 
     for (int i = 0; i < len / 2; i++) {
