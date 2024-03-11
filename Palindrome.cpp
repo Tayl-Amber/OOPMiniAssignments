@@ -35,4 +35,5 @@ int main(){
            cin >> num;
 
             if (p.checkPalindrome(num)) {
+                cout << num << " is a palindrome." << endl;
 }
