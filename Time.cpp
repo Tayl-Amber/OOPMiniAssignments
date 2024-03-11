@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 
@@ -17,9 +18,16 @@ private:
         cout << "Mins are: " << min << endl;
         cout << "Hours are: " << hour << endl;
     }
-    
+
     Time sum(Time &time){
         Time result;
-        result.min 
+        result.min = min + time.min;
+        result.hour = hour + time.hour;
+        return result;
     }
 };
+
+int main(){
+    Time 
+}
+

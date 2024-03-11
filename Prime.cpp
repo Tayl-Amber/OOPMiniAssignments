@@ -22,16 +22,19 @@ public:
       if (n % i == 0)
       {
         is_prime = false;
-        break;
       }
     }
-    if (is_prime)
-    {
-      cout << "Number is Prime." << endl;
+    if(is_prime){
+      return true;
     }
-    else
-    {
-      cout << "Number is Composite." << endl;
+  }
+
+  void display(){
+    if(showPrime(num)){
+      cout << "Number is Prime!" << endl;
+    }
+    else{
+      cout << "Number is Composite!" << endl;
     }
   }
 };
@@ -46,4 +49,5 @@ int main()
 
   prime.setData(num);
   prime.showPrime(num);
+  prime.display();
 }
