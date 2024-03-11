@@ -70,7 +70,9 @@ public:
         cout << "3.Show Information" << endl;
         cout << "4.Exit" << endl;
     }
-};
+   ~ BankAccount(){
+
+    }
 
 int main()
 {
