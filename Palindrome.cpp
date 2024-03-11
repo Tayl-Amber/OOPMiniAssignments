@@ -11,7 +11,9 @@ void checkPalindrome();
 void display();
             int t;
 };
+         void Palindrome ::    checkPalindrome(){
             
+         }
             
 int main(){
             
