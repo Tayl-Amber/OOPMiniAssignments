@@ -7,7 +7,7 @@ class Palindrome{
 private:
     int n;   
 public:
-    bool checkPalindrome(int num); // Corrected function signature
+    bool checkPalindrome(int num); 
     void display();
     int t;
 };
