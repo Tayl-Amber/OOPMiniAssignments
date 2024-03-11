@@ -40,6 +40,5 @@ int main()
     cout << "Enter the number: ";
     cin >> n;
     fibonacci.set_data(n);
-    fibonacci.fibo(n);
     fibonacci.display();
 }
