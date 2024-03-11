@@ -11,7 +11,7 @@ bool checkPalindrome();
 void display();
             int t;
 };
-         void Palindrome ::    checkPalindrome(){
+         bool Palindrome ::    checkPalindrome(){
 
          }
             
