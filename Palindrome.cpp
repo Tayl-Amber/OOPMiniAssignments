@@ -22,7 +22,7 @@ string str = to_string(n);
             return false;
         }
     }
-    // If all characters match, the number is a palindrome
+   
     return true;
          }
             
