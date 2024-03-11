@@ -31,4 +31,6 @@ int main(){
             Palindrome p;
             int num;
 
+           cout << "Enter a number: ";
+    cin >> num;
 }
