@@ -7,6 +7,7 @@ class Palindrome{
 private:
          int n;   
 public:
+void checkPalindrome();
 void display();
             int t;
 };
