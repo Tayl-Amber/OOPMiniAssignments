@@ -12,7 +12,7 @@ void display();
             int t;
 };
          bool Palindrome ::    checkPalindrome(){
-string str = to_string(num);
+string str = to_string(n);
     int len = str.length();
 
     // Iterate over the first half of the string
