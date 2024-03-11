@@ -7,12 +7,12 @@ class Palindrome{
 private:
          int n;   
 public:
-void checkPalindrome();
+bool checkPalindrome();
 void display();
             int t;
 };
          void Palindrome ::    checkPalindrome(){
-            
+
          }
             
 int main(){
