@@ -37,4 +37,5 @@ int main(){
             if (p.checkPalindrome(num)) {
                 cout << num << " is a palindrome." << endl;
                  } else {
+                    cout << num << " is not a palindrome." << endl;
 }
