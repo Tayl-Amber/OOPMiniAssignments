@@ -28,6 +28,6 @@ string str = to_string(n);
             
 int main(){
             
-            
+            Palindrome p;
 
 }
