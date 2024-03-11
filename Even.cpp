@@ -19,7 +19,6 @@ bool Even :: calculateEven(){
     return (num%2 == 0);
 }
 void Even :: display(){
-    int num;
     if(calculateEven()){
         cout << "Number is Even" << endl;
     }
