@@ -10,6 +10,8 @@ private:
     float inches;
 
 public:
+    Distance() : feet{0}, inches{0.0} {} // Default Constructor
+    Distance(int feet, float inches) : feet{feet}, inches{inches} {} //parametrized constructor
     void set_data(int feet, float inches)
     {
         this->feet = feet;
@@ -20,20 +22,20 @@ public:
         cout << "Feet are: " << feet << endl;
         cout << "Inches are: " << inches << endl;
     }
-    Distance add(Distance d1)   // passing object as parameter
+    Distance add(Distance d1) // passing object as parameter
     {
         Distance res;
         res.feet = feet + d1.feet;
         res.inches = inches + d1.inches;
-        return res;    // returning object from a function
+        return res; // returning object from a function
     }
 };
 
 int main()
 {
-    Distance d1, d2, d3;
-    d1.set_data(3, 12.9);
-    d2.set_data(9, 69.6);
+    Distance d1(3, 12.9);
+    Distance d2(9, 69.6);
+    Distance d3(0, 0.0);
 
     cout << endl;
     cout << "=======Distance 1=======" << endl;
@@ -42,7 +44,7 @@ int main()
     cout << endl;
     cout << "=======Distance 2=======" << endl;
     d2.dispaly();
-     
+
     d3 = d1.add(d2);
     cout << endl;
     cout << "The Sum is: " << endl;
