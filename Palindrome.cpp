@@ -12,7 +12,7 @@ public:
     int t;
 };
 
-bool Palindrome::checkPalindrome(int num){ // Added argument num
+bool Palindrome::checkPalindrome(int num){ 
     string str = to_string(num); // Convert num to string
     int len = str.length();
 
