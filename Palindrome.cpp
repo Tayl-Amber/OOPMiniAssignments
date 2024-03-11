@@ -33,4 +33,6 @@ int main(){
 
            cout << "Enter a number: ";
            cin >> num;
+
+            if (p.checkPalindrome(num)) {
 }
