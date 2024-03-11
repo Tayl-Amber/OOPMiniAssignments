@@ -21,18 +21,6 @@ private:
 
     Time sum(Time &time){
         Time result;
-<<<<<<< HEAD
-        result.min = min + time.min;
-        result.hour = hour + time.hour;
-        return result;
-    }
-};
-
-int main(){
-    Time 
-}
-
-=======
         result.hour=hour + time.hour;
 		result.min=min + time.min;
 		result.hour +=result.min/60;
@@ -59,4 +47,4 @@ main()
 	
 	return 0;
 }
->>>>>>> e6871353fb373af7b71d8d839ada3269c7104523
+
