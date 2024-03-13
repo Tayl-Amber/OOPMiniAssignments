@@ -73,7 +73,7 @@ public:
    ~ BankAccount(){
 
     }
-
+};
 int main()
 {
     BankAccount acc;
