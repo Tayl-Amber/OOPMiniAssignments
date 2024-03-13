@@ -19,7 +19,7 @@ public:
         this->img = img;
     }
     void dispaly()
-    {
+{
         cout << "The Complex Number is: " << real << " + " << img << "i" << endl;
     }
     Complex sum(Complex c1, Complex c2)
